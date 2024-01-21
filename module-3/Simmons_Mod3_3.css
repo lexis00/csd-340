@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+.first, .second {
+    width: 45%;
+}
+
+.last {
+    width: 100%;
+}
+
+#left, #right {
+    width: 45%;
+    display: inline-block; /* Display as inline-block to place them side by side */
+    vertical-align: top; /* Align to the top to ensure proper alignment */
+    margin-right: 25px;
+}
+
+#left h3 {
+    font-weight: 500;
+}
+
+#left ol li {
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#left h3 {
+    border-radius: 15px;
+    border: 1px dashed red;
+    padding: 10px;
+}
+
+#right ul li {
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#right h3 {
+    padding: 10px;
+    list-style: upper-roman;
+    border: 1px dashed red;
+    padding: 10px;
+    
+}
+
+a:hover {
+    color: rgb(3, 53, 21);
+    text-decoration: underline;
+}
+
+#last {
+    float: right;
+    margin-bottom: 20px;
+}
+
